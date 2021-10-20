@@ -91,6 +91,7 @@ app.post('/user', (req, res)=>{
         });
 });
 
+
 //UPDATE DATA
 app.put('/user/:id', (req, res)=>{
     
@@ -130,4 +131,3 @@ app.delete('/user/:id', (req,res)=>{
         })
     })
 });
-
